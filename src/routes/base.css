@@ -1,0 +1,18 @@
+:root {
+	--black: #222;
+	--white: #eee;
+	--grey: #444;
+
+	--background-colour: var(--grey);
+}
+
+html,
+body {
+	height: 100%;
+	width: 100%;
+}
+
+body {
+	background-color: var(--background-colour);
+	color: var(--white);
+}
